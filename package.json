@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/truetone/truetone-slider/issues"
   },
-  "homepage": "https://github.com/truetone/truetone-slider#readme"
+  "homepage": "https://github.com/truetone/truetone-slider#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
