@@ -7,21 +7,21 @@ A class to manage slider inputs and render their values.
 Create a slider:
 
 ```html
-<label for="freqency-slider">Frequency (Hz)</label>
-<input id="freqency-slider"
+<label for="frequency-slider">Frequency (Hz)</label>
+<input id="frequency-slider"
         class="input-range frequency"
         type="range"
         step="1"
         value="440"
         min="16"
         max="880"
-        data-value-elem="freqency-slider-value">
+        data-value-elem="frequency-slider-value">
 ```
 
 Add an element with an id that matches the value for `data-value-elem` above:
 
 ```html
-<p id="freqency-slider-value"></p>
+<p id="frequency-slider-value"></p>
 ```
 
 Instantiate the slider in your class:
